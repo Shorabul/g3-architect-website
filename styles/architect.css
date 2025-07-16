@@ -7,6 +7,7 @@
     font-style: normal;
 }
 
+
 /* shared styles start */
 .display-flex {
     display: flex;
@@ -55,8 +56,12 @@ main>section {
 }
 
 /* shared styles end */
+
+
 /* header styles start*/
 /* header styles end*/
+
+
 /* navbar related styles start*/
 .navbar {
     justify-content: space-between;
@@ -86,6 +91,28 @@ main>section {
 
 /* navbar related styles end*/
 
+
+/* banner related styles start*/
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+/* banner related styles end*/
+
+
+
 /* teams and features related styles start */
 .teams {
     align-items: center;
@@ -108,24 +135,33 @@ main>section {
 
 /* teams and featuers related styles end */
 
-/* banner related styles start*/
-.banner-content {
-    max-width: 850px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 50px;
+
+/* features will love and enjoy related styles start  */
+.features-section {
+    gap: 140px;
 }
 
-.banner-title {
-    font-weight: bold;
-    font-size: 4rem;
+#feature-section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
 }
 
-.banner-image {
-    width: 100%;
+.feature-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
 }
 
-/* banner related styles end*/
+.feature-card .feature-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* features will love and enjoy related styles end  */
+
+
 /* some facts related styles start */
 /* #some-facts {
     margin: 0;
