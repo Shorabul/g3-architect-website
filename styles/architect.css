@@ -107,6 +107,7 @@ main>section {
 
 .banner-image {
     width: 100%;
+    margin-bottom: 50px;
 }
 
 /* banner related styles end*/
@@ -122,6 +123,12 @@ main>section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+
+}
+
+.team-img-container img {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .our-features {
@@ -335,14 +342,12 @@ footer h4 {
 }
 
 /* medium size device*/
-@media screen and (min-width: 576px) and (max-width: 1024px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
 
     .teams,
     .features {
         flex-direction: column;
     }
-
-
 
     .our-features {
         margin: 50px auto;
