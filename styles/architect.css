@@ -251,6 +251,21 @@ main>section {
 /* Our Sponsors related styles end */
 
 
+/* footer section  */
+footer {
+    max-width: 1440px;
+    margin: 130px auto;
+    justify-content: center;
+}
+
+footer h4 {
+    padding: 40px 410px;
+    font-weight: 400;
+}
+
+/* footer section  */
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
 
@@ -309,6 +324,14 @@ main>section {
         margin-top: 20px;
         margin-left: 20px;
     }
+
+    /* footer {
+        width: 100%;
+    } */
+
+    footer h4 {
+        padding: 40px 0;
+    }
 }
 
 /* medium size device*/
@@ -361,5 +384,13 @@ main>section {
         /* margin: 20px; */
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    /* footer {
+        width: 100%;
+    } */
+
+    footer h4 {
+        padding: 40px 0;
     }
 }
